@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{7ABF1B49-9878-4DC0-BCCF-ACDD3B9C186C}</ProjectGuid>
     <RootNamespace>TeamNOW</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,6 +129,7 @@
     <ClCompile Include="..\src\SimpleLib\CTexture.cpp" />
     <ClCompile Include="..\src\SimpleLib\CVector3.cpp" />
     <ClCompile Include="..\src\SimpleLib\Helper.cpp" />
+    <ClCompile Include="..\src\System\BaseController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\GameWorld.h" />
@@ -144,6 +145,7 @@
     <ClInclude Include="..\src\SimpleLib\CVector3.h" />
     <ClInclude Include="..\src\SimpleLib\Helper.h" />
     <ClInclude Include="..\src\SimpleLib\SimpleLib.h" />
+    <ClInclude Include="..\src\System\BaseController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

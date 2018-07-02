@@ -11,6 +11,8 @@ GameWorld *GameWorld::m_lpInstance = NULL;
 GameWorld::GameWorld() {
 	m_lpInstance = this;
 
+	BC->GetInstance();
+
 	// ‰Šú‰æ–Ê‚Íƒ^ƒCƒgƒ‹‰æ–Ê
 	m_lpNowScene = new STitle();
 }
