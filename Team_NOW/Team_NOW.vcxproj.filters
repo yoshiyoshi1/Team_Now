@@ -45,6 +45,9 @@
     <ClCompile Include="..\src\SimpleLib\Helper.cpp">
       <Filter>src\SimpleLib</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\GameWorld.h">
@@ -85,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="..\src\SimpleLib\SimpleLib.h">
       <Filter>src\SimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

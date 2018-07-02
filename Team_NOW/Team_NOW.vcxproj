@@ -118,6 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Camera.cpp" />
     <ClCompile Include="..\src\GameWorld.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Scene\SGame.cpp" />
@@ -131,6 +132,7 @@
     <ClCompile Include="..\src\SimpleLib\Helper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\Camera.h" />
     <ClInclude Include="..\src\GameWorld.h" />
     <ClInclude Include="..\src\main.h" />
     <ClInclude Include="..\src\Scene\SceneBase.h" />
