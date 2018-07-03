@@ -10,6 +10,14 @@
 SGame::SGame() 
 {
 	m_id = GAME;
+
+	cdg.SetDirectionalLight(0,
+		&D3DXVECTOR3(1, -1, 0),				// ライトの方向
+		&D3DXCOLOR(1.0f, 1.0f, 1.0f, 1.0f),	// 基本色(ディフーズ RGBA)
+		&D3DXCOLOR(0.3f, 0.3f, 0.3f, 0.0f),	// 環境色(アンビエント RGBA)
+		&D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.0f)	// 反射色(スペキュラ RGBA)
+	);
+
 }
 
 //================================================================
@@ -74,6 +82,6 @@ void SGame::Draw(void)
 	cdg.GetDev()->EndScene();
 
 	// バックバッファをプライマリバッファにコピー
-	cdg.GetDev()->Present(NULL, NULL, NULL, NULL);
+	cdg.GetDev()->Present(nullptr, nullptr, nullptr, nullptr);
 }
 
