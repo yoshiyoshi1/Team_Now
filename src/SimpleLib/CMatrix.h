@@ -298,6 +298,25 @@ public:
 	{
 		return *(CVector3*)&_31;
 	}
+
+	//========================================
+	// 追加分
+	//========================================
+	// D3DXMatrixPerspectiveFovLH
+	void SetPerspectiveFovLH(int fovy, float aspect, float zn = 1.0f, float zf = 1000.0f) 
+	{
+		D3DXMatrixPerspectiveFovLH(this, ToRadian(fovy), aspect, zn, zf);
+	}
+
+	// D3DXMatrixLookAtLH
+	void SetLookAtLH(D3DXVECTOR3 vPos, D3DXVECTOR3 vLook, D3DXVECTOR3 vHead)
+	{
+		D3DXMatrixLookAtLH(this,
+			&vPos,			// カメラの位置
+			&vLook,			// 注視点（カメラが見ている場所）
+			&vHead			// 頭上方向
+		);
+	}
 };
 
 }

@@ -124,16 +124,16 @@ public:
 
 
 	// 行列で変換(回転・座標)
-	static void Transform(D3DXVECTOR3 *vOut,const D3DXVECTOR3 *vSrc,const D3DXMATRIX *D3DXMATRIX){	// 静的関数
+	static void TransformCoord(D3DXVECTOR3 *vOut,const D3DXVECTOR3 *vSrc,const D3DXMATRIX *D3DXMATRIX){	// 静的関数
 		D3DXVec3TransformCoord(vOut,vSrc,D3DXMATRIX);
 	}
-	void Transform(const D3DXMATRIX *D3DXMATRIX){
-		Transform(this,this,D3DXMATRIX);
+	void TransformCoord(const D3DXMATRIX *D3DXMATRIX){
+		TransformCoord(this,this,D3DXMATRIX);
 	}
-	void Transform(D3DXVECTOR3 *vOut,const D3DXMATRIX *D3DXMATRIX){
-		Transform(vOut,this,D3DXMATRIX);
+	void TransformCoord(D3DXVECTOR3 *vSrc,const D3DXMATRIX *D3DXMATRIX){
+		TransformCoord(this,vSrc,D3DXMATRIX);
 	}
-
+	
 	// 行列で変換(回転のみの変換)
 	static void TransformNormal(D3DXVECTOR3 *vOut,const D3DXVECTOR3 *vSrc,const D3DXMATRIX *D3DXMATRIX){// 静的関数
 		D3DXVec3TransformNormal(vOut,vSrc,D3DXMATRIX);

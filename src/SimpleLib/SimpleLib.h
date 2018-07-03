@@ -71,6 +71,7 @@
 //	2年生授業用の簡易DirectX9操作クラス群
 //===============================================
 #include "Helper.h"
+#include "CVector2.h"
 #include "CVector3.h"
 #include "CMatrix.h"
 #include "CTexture.h"

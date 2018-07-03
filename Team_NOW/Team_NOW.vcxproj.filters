@@ -10,6 +10,9 @@
     <Filter Include="src\SimpleLib">
       <UniqueIdentifier>{ce42bdb6-5d93-4ea9-b62b-1f577259a357}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{fb86cc63-908e-43f7-9121-ea6a89d0cfee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\GameWorld.cpp">
@@ -44,6 +47,12 @@
     </ClCompile>
     <ClCompile Include="..\src\SimpleLib\Helper.cpp">
       <Filter>src\SimpleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SimpleLib\CVector2.cpp">
+      <Filter>src\SimpleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera\Camera.cpp">
+      <Filter>src\Camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +94,12 @@
     </ClInclude>
     <ClInclude Include="..\src\SimpleLib\SimpleLib.h">
       <Filter>src\SimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SimpleLib\CVector2.h">
+      <Filter>src\SimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera\Camera.h">
+      <Filter>src\Camera</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
