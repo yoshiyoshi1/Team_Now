@@ -118,7 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Camera.cpp" />
+    <ClCompile Include="..\src\Camera\Camera.cpp" />
     <ClCompile Include="..\src\GameWorld.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Scene\SGame.cpp" />
@@ -128,11 +128,12 @@
     <ClCompile Include="..\src\SimpleLib\CMesh.cpp" />
     <ClCompile Include="..\src\SimpleLib\CSurface.cpp" />
     <ClCompile Include="..\src\SimpleLib\CTexture.cpp" />
+    <ClCompile Include="..\src\SimpleLib\CVector2.cpp" />
     <ClCompile Include="..\src\SimpleLib\CVector3.cpp" />
     <ClCompile Include="..\src\SimpleLib\Helper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\Camera.h" />
+    <ClInclude Include="..\src\Camera\Camera.h" />
     <ClInclude Include="..\src\GameWorld.h" />
     <ClInclude Include="..\src\main.h" />
     <ClInclude Include="..\src\Scene\SceneBase.h" />
@@ -143,6 +144,7 @@
     <ClInclude Include="..\src\SimpleLib\CMesh.h" />
     <ClInclude Include="..\src\SimpleLib\CSurface.h" />
     <ClInclude Include="..\src\SimpleLib\CTexture.h" />
+    <ClInclude Include="..\src\SimpleLib\CVector2.h" />
     <ClInclude Include="..\src\SimpleLib\CVector3.h" />
     <ClInclude Include="..\src\SimpleLib\Helper.h" />
     <ClInclude Include="..\src\SimpleLib\SimpleLib.h" />

@@ -95,3 +95,5 @@ void CMatrix::SetLookAtPos(const D3DXVECTOR3 *TargetPos,const D3DXVECTOR3 *Up)
 	_32 = Look.y;
 	_33 = Look.z;
 }
+
+
