@@ -17,7 +17,13 @@ public:
 	~SGame();
 	int Update()override;
 	void Draw()override;
+	
+	// 3D描画
 	void Render()override;
+	// スプライト描画
+	void DrawSprite()override;
+	// テキスト表示
+	void DisplayText()override;
 
 private:
 	

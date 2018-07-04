@@ -10,7 +10,9 @@ public :
 	void Update();
 
 	void SetProj();
+	
 	void SetView(CMatrix mBase);
+	void SetView();
 
 private:
 	CMatrix m_mProj;
@@ -20,8 +22,6 @@ private:
 	CVector3 m_vPos;
 	CVector3 m_vLook;
 	CVector3 m_vHead;
-
-	CMatrix m_mIden;
 
 };
 
