@@ -1,7 +1,7 @@
 #ifndef __main_h__
 #define __main_h__
 
-#include "SimpleLib/SimpleLib.h"
+#include "../SimpleLib/SimpleLib.h"
 using namespace SimpleLib;
 
 //============================================================

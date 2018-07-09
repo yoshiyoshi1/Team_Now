@@ -118,36 +118,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\SimpleLib\CDirectXGraphics.cpp" />
+    <ClCompile Include="..\SimpleLib\CMatrix.cpp" />
+    <ClCompile Include="..\SimpleLib\CMesh.cpp" />
+    <ClCompile Include="..\SimpleLib\CSurface.cpp" />
+    <ClCompile Include="..\SimpleLib\CTexture.cpp" />
+    <ClCompile Include="..\SimpleLib\CVector2.cpp" />
+    <ClCompile Include="..\SimpleLib\CVector3.cpp" />
+    <ClCompile Include="..\SimpleLib\Helper.cpp" />
     <ClCompile Include="..\src\Camera\Camera.cpp" />
     <ClCompile Include="..\src\GameWorld.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Scene\SGame.cpp" />
     <ClCompile Include="..\src\Scene\STitle.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CDirectXGraphics.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CMatrix.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CMesh.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CSurface.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CTexture.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CVector2.cpp" />
-    <ClCompile Include="..\src\SimpleLib\CVector3.cpp" />
-    <ClCompile Include="..\src\SimpleLib\Helper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\SimpleLib\CDirectXGraphics.h" />
+    <ClInclude Include="..\SimpleLib\CMatrix.h" />
+    <ClInclude Include="..\SimpleLib\CMesh.h" />
+    <ClInclude Include="..\SimpleLib\CSurface.h" />
+    <ClInclude Include="..\SimpleLib\CTexture.h" />
+    <ClInclude Include="..\SimpleLib\CVector2.h" />
+    <ClInclude Include="..\SimpleLib\CVector3.h" />
+    <ClInclude Include="..\SimpleLib\Helper.h" />
+    <ClInclude Include="..\SimpleLib\SimpleLib.h" />
     <ClInclude Include="..\src\Camera\Camera.h" />
     <ClInclude Include="..\src\GameWorld.h" />
     <ClInclude Include="..\src\main.h" />
     <ClInclude Include="..\src\Scene\SceneBase.h" />
     <ClInclude Include="..\src\Scene\SGame.h" />
     <ClInclude Include="..\src\Scene\STitle.h" />
-    <ClInclude Include="..\src\SimpleLib\CDirectXGraphics.h" />
-    <ClInclude Include="..\src\SimpleLib\CMatrix.h" />
-    <ClInclude Include="..\src\SimpleLib\CMesh.h" />
-    <ClInclude Include="..\src\SimpleLib\CSurface.h" />
-    <ClInclude Include="..\src\SimpleLib\CTexture.h" />
-    <ClInclude Include="..\src\SimpleLib\CVector2.h" />
-    <ClInclude Include="..\src\SimpleLib\CVector3.h" />
-    <ClInclude Include="..\src\SimpleLib\Helper.h" />
-    <ClInclude Include="..\src\SimpleLib\SimpleLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
