@@ -1,13 +1,2 @@
-﻿  GameWorld.cpp
-  main.cpp
-  SGame.cpp
-  STitle.cpp
-  CDirectXGraphics.cpp
-  CMatrix.cpp
-  CMesh.cpp
-  CSurface.cpp
-  CTexture.cpp
-  CVector3.cpp
-  Helper.cpp
-  コードを生成中...
+﻿  map.cpp
   Team_NOW.vcxproj -> C:\Users\ii toshiki\Documents\GitHub\Team_Now\x64\Debug\Team_NOW.exe

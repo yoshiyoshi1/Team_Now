@@ -1,11 +1,13 @@
 #include "../main.h"
 #include "../GameWorld.h"
+#include "../Map/map.h"
 
 #include "STitle.h"
 
-
+map m;
 STitle::STitle() 
 {
+	m.LoadMap();
 	m_id = TITLE;
 }
 
@@ -48,7 +50,7 @@ void STitle::Draw()
 	// 描画処理
 	//-------------------------------------------
 	Render();
-
+	m.DrawMap();
 	//-------------------------------------------
 	// スプライト	2D画像
 	//-------------------------------------------

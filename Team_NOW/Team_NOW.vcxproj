@@ -124,6 +124,7 @@
   <ItemGroup>
     <ClCompile Include="..\src\GameWorld.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Map\map.cpp" />
     <ClCompile Include="..\src\Scene\SGame.cpp" />
     <ClCompile Include="..\src\Scene\STitle.cpp" />
     <ClCompile Include="..\src\SimpleLib\CDirectXGraphics.cpp" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="..\src\GameWorld.h" />
     <ClInclude Include="..\src\main.h" />
+    <ClInclude Include="..\src\Map\map.h" />
     <ClInclude Include="..\src\Scene\SceneBase.h" />
     <ClInclude Include="..\src\Scene\SGame.h" />
     <ClInclude Include="..\src\Scene\STitle.h" />

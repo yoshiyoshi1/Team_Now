@@ -10,6 +10,9 @@
     <Filter Include="src\SimpleLib">
       <UniqueIdentifier>{ce42bdb6-5d93-4ea9-b62b-1f577259a357}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{c512d3c4-0dea-490b-9fa8-f75be6692816}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\GameWorld.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="..\src\SimpleLib\Helper.cpp">
       <Filter>src\SimpleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Map\map.cpp">
+      <Filter>src\Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="..\src\SimpleLib\SimpleLib.h">
       <Filter>src\SimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Map\map.h">
+      <Filter>src\Map</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
