@@ -17,7 +17,7 @@ void map::LoadMap(void) {
 
 	for (int i = 0; i < MAPHEIGHT; i++) {
 		for (int j = 0; j < MAPWIDTH; j++) {
-			D3DXMatrixTranslation(&mGlound[i][j], j*2.0f, 0.0f, -i * 2.0f);
+
 		}
 	}
 	fclose(fp);
@@ -29,12 +29,10 @@ void map::DrawMap(void) {
 			//画面外のブロックを表示しないためのif
 			//if (mTeapot._41 + 80.0f > mGlound[i][j]._41 && mTeapot._41 - 80.0f < mGlound[i][j]._41) {
 				if (MapData[i][j] == 0) {
-					cdg.GetDev()->SetTransform(D3DTS_WORLD, &mGlound[i][j]);
-					//DrawMesh(&xGlound00);
+
 				}
 				else if (MapData[i][j] == 1) {
-					cdg.GetDev()->SetTransform(D3DTS_WORLD, &mGlound[i][j]);
-					//DrawMesh(&xGlound01);
+
 				}
 			//}
 		}
