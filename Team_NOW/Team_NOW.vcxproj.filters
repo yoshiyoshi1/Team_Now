@@ -13,6 +13,9 @@
     <Filter Include="SimpleLib">
       <UniqueIdentifier>{8ab0c575-6f05-47bd-b59e-955e0202e01a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\System">
+      <UniqueIdentifier>{c52e9831-2ebc-46d9-90ec-aa85edd2c3c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\GameWorld.cpp">
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="..\SimpleLib\Helper.cpp">
       <Filter>SimpleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\RouteSearch.cpp">
+      <Filter>src\System</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="..\SimpleLib\SimpleLib.h">
       <Filter>SimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\RouteSearch.h">
+      <Filter>src\System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

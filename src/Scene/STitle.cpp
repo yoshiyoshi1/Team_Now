@@ -16,12 +16,21 @@ STitle::STitle()
 		&D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.0f)	// 反射色(スペキュラ RGBA)
 	);
 
+	for (int i = 0; i < 10; i++) {
+		for (int j = 0; j < 10; j++) {
+			m_test[i][j] = 999;
+		}
+	}
+	ArrayZeroClear(&**m_test, sizeof(m_test));
+
 	m_Cam = new Camera();
 	m_Cam->SetProj();
 
 	m_meshSample.LoadXFile("../data/Mesh/TestData/Model.x");
 	m_texSample[0].LoadTexture("../data/Sprite/TestData/back.png");
 	m_texSample[1].LoadTexture("../data/Sprite/TestData/continue.png");
+
+	
 }
 
 STitle::~STitle()

@@ -75,6 +75,21 @@ inline void DispMsg(HWND hWnd,char *format, ...)
 // キー判定(1回押し)
 bool KeyCheck(int keyCode);
 
+
+//==========================================================
+// 配列を０で埋めるテンプレート関数
+//	適用したい配列　と　その配列のサイズ　を引数に
+//	例) int sample[10][10];
+//		ArrayZeroClear(&**sample, sizeof(sample));
+//==========================================================
+template<class T>
+bool ArrayZeroClear(T* array, int size) {
+	for (int i = 0; i < (size/sizeof(T)); i++) {
+		array[i] = 0;
+	}
+	return true;
+}
+
 }
 
 
