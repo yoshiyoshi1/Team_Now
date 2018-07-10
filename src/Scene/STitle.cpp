@@ -2,6 +2,7 @@
 #include "../GameWorld.h"
 
 #include "../Camera/Camera.h"
+#include"../Map/map.h"
 #include "STitle.h"
 
 
@@ -16,9 +17,12 @@ STitle::STitle()
 		&D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.0f)	// 反射色(スペキュラ RGBA)
 	);
 
+
 	m_Cam = new Camera();
 	m_Cam->SetProj();
 
+	m_map = new map();
+	m_map->LoadMap();
 	m_meshSample.LoadXFile("../data/Mesh/TestData/Model.x");
 	m_texSample[0].LoadTexture("../data/Sprite/TestData/back.png");
 	m_texSample[1].LoadTexture("../data/Sprite/TestData/continue.png");
@@ -99,10 +103,10 @@ void STitle::Render()
 	// 表示テスト用
 	//-------------------------------------------
 	{
+		m_map->DrawMap();
 		CMatrix m;
 		m.CreateMove(0, -2, 10);
 		m.RotateY_Local(45);
-
 		m_meshSample.Draw(&m);
 	}
 }

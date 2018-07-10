@@ -14,6 +14,10 @@ public:
 	FILE* fp;
 	int MapData[80][80];
 	int ret;
+	
+	CMesh m_meshLoad;
+	CMesh m_meshLand;
+	CMatrix m[80][80];
 
 };
 #endif
